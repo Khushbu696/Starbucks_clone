@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .head{
     padding: 10px;
     position: fixed;
@@ -81,7 +84,6 @@
     vertical-align: middle;
 }
 .second{
-    /* border: 2px solid blueviolet; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -93,7 +95,6 @@
     font-size: 20px;
 }
 .third{
-    /* border: 5px solid gold; */
     height: 50px;
     margin-top: 118px;
     margin-right: 20px;
@@ -171,13 +172,52 @@ h2{
     margin-top: 90px;
     margin-bottom: 50px;
     background-color: rgb(236, 235, 233);
-    height: 300px;
+    padding: 20px;
 }
 .sixth h2{
-    margin-left: 90px;
+    margin: 0px 0px 0px 90px;
     color: rgb(30, 58, 50);
     padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+.sixthchild{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 35px 0px;
+}
+.cappuccino, .hotchoco, .vanilla{
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px lightgrey;
+    padding: 10px;
+    margin-right: 40px;
+}
+.cappuccino img, .hotchoco img, .vanilla img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cappuccino h3, .hotchoco h3, .vanilla h3{
+    margin: 0;
+}
+.cappuccino p, .hotchoco p, .vanilla p{
+    font-size: 12px;
+    color: grey;
+}
+.lower{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+#item{
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: green;
 }
 .seventh{
     height: 510px;
