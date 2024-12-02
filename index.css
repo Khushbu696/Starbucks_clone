@@ -1,0 +1,313 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+#left{
+    width: 3%;
+    vertical-align: middle;
+    margin-left: 110px;
+    margin-right: 30px;
+}
+#right{
+    width: 2%;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+#home, #gift, #order, #pay, #store{
+    margin: 0px 30px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#order:hover, #pay:hover, #store:hover{
+    color: green;
+}
+#gift a{
+    text-decoration: none;
+    color: black;
+}
+#gift a:hover{
+    color: green;
+}
+/* #gift a:visited{
+    color: black;
+} */
+#home{
+    color: darkgreen;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px;
+    font-weight: bold;
+}
+#search{
+    color: grey;
+    box-shadow: 0px 1px 2px 1px grey;
+    border-radius: 30px;
+    padding: 9px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#search img{
+    width: 2%;
+    vertical-align: middle;
+}
+.head2{
+    background-color: rgb(30, 57, 50);
+    padding: 25px;
+    margin-top: 60px;
+    display: flex;
+}
+.head2 span{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+.first{
+    background-color: rgb(237, 54, 36);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    padding: 15px;
+}
+.first img{
+    width: 7%;
+    vertical-align: middle;
+}
+.second{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second p{
+    line-height: 24px;
+}
+#bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+.third{
+    height: 50px;
+    margin-top: 118px;
+    margin-right: 20px;
+}
+.third span{
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 50px;
+}
+h2{
+    margin-left: 115px;
+    color: rgb(30, 58, 50);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.fourth img{
+    border-radius: 50%;
+    width: 8%;
+}
+.fifth{
+    display: flex;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+#bestseller{
+    margin-left: 16px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#drinks{
+    margin-left: 72px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#food{
+    margin-left: 92px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#merchandise{
+    margin-left: 74px;
+    margin-right: 100px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#coffeeathome{
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#readytoeat{
+    margin-left: 48px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sixth{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    background-color: rgb(236, 235, 233);
+    padding: 20px;
+}
+.sixth h2{
+    margin: 0px 0px 0px 90px;
+    color: rgb(30, 58, 50);
+    padding: 30px;
+}
+.sixthchild{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 35px 0px;
+}
+.cappuccino, .hotchoco, .vanilla{
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px 1px lightgrey;
+    padding: 10px;
+    margin-right: 40px;
+}
+.cappuccino img, .hotchoco img, .vanilla img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cappuccino h3, .hotchoco h3, .vanilla h3{
+    margin: 0;
+}
+.cappuccino p, .hotchoco p, .vanilla p{
+    font-size: 12px;
+    color: grey;
+}
+.lower{
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+#item{
+    padding: 5px 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: green;
+}
+.seventh{
+    height: 510px;
+    margin-bottom: 50px;
+    background-color: rgb(236, 235, 233);
+}
+.seventh h2{
+    margin: 0px 0px 0px 90px;
+    color: rgb(30, 58, 50);
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coffee{
+    background-image: url(coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    width: 83%;
+    height: 350px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.coffee h1, .coffee p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coffee span{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 30px;
+    align-self: flex-start;
+}
+.foot{
+    background-color: rgb(14, 56, 44);
+    padding: 50px;
+}
+.bottom{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.row1, .row2, .row3, .row4, .row5, .row6{
+    padding: 35px;
+}
+.row5 img{
+    margin-right: 10px;
+}
+.row6 div{
+    clear: both;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.row6 img{
+    vertical-align: middle;
+    float: left;
+    margin-right: 5px;
+}
+.last{
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-size: 12px;
+    border-top: 1px solid white;
+    display: flex;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dd{
+    padding: 5px 20px 0px 0px;
+}
+.aa, .bb, .cc{
+    border-right: 1px solid white;
+    padding: 5px 20px 0px 0px;
+    margin-right: 10px;
+}
