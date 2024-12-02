@@ -4,9 +4,11 @@
 .head{
     padding: 10px;
     position: fixed;
+    margin: 0;
     top: 0;
     width: 100%;
     background-color: white;
+    box-shadow: 0 1px 1px 1px lightgrey;
 }
 #left{
     width: 3%;
@@ -19,23 +21,20 @@
     vertical-align: middle;
     margin-left: 90px;
 }
-#home, #gift, #order, #pay, #store{
+#home, #gift, #order, #pay, #store, #feedback{
     margin: 0px 30px 0px 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: black;
 }
-#order:hover, #pay:hover, #store:hover{
-    color: seagreen;
-}
-#gift a{
+#gift a, #order a, #store a, #pay a, #feedback a{
     text-decoration: none;
     color: black;
 }
-#gift a:visited{
+#gift a:visited, #order a:visited, #pay a:visited, #store a:visited, #feedback a:visited{
     color: black;
 }
-#gift a:hover{
+#gift a:hover, #order a:hover, #pay a:hover, #store a:hover, #feedback a:hover{
     color: seagreen;
 }
 #home{
