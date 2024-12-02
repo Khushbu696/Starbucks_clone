@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing</title>
+    <style>
+        /* Styling for the container and cards */
+        .five {
+            margin: 30px 0px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .AA,
+        .BB,
+        .CC,
+        .DD {
+            background-color: rgb(249, 249, 249);
+            box-shadow: 0 1px 1px 1px lightgrey;
+            width: 18%;
+            border-radius: 5px;
+            padding: 8px;
+            display: flex;
+            border: 3px solid red;
+        }
+
+        /* Styling for the images */
+        .card-img {
+            width: 30%;
+            height: auto;
+            padding: 20px;
+            margin-right: 20px;
+            /* Adds space between the image and text */
+            border: 3px solid black;
+            transform: translateX(-50%);
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .text {
+            width: 70%;
+        }
+
+        /* Styling for text and buttons */
+        .AA h3,
+        .BB h3,
+        .CC h3,
+        .DD h3 {
+            /* margin: 50px 0 5px 0; Add margin to push content below the image */
+            margin: 0;
+        }
+
+        .AA p,
+        .BB p,
+        .CC p,
+        .DD p {
+            margin-top: 0;
+            font-size: 13px;
+            color: gray;
+        }
+
+        .AA span,
+        .BB span,
+        .CC span,
+        .DD span {
+            padding: 5px 15px;
+            color: white;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 10px auto;
+            /* Center the button */
+            background-color: seagreen;
+            cursor: pointer;
+        }
+
+        /* Hover effect for buttons */
+        .AA span:hover,
+        .BB span:hover,
+        .CC span:hover,
+        .DD span:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="five">
+        <div class="AA">
+            <img src="starbucksindia.png" alt="India Exclusive" class="card-img">
+            <div class="text">
+                <h3>India Exclusive</h3>
+                <p>
+                    Bring in the festive season and make each celebration memorable.
+                </p>
+                <span>Add Item</span>
+            </div>
+        </div>
+        <div class="BB">
+            <img src="starbuckscoffee.png" alt="Starbucks Coffee" class="card-img">
+            <div class="text">
+                <h3>Starbucks Coffee</h3>
+                <p>
+                    Starbucks is best when shared. Treat your pals to a good cup of coffee.
+                </p>
+                <span>Add Item</span>
+            </div>
+        </div>
+        <div class="CC">
+            <img src="youkeepmewarm.png" alt="U Keep Me Warm" class="card-img">
+            <div class="text">
+                <h3>U Keep Me Warm</h3>
+                <p>
+                    Captivating, cosy, coffee. Gift your loved ones this Starbucks Gift Card.
+                </p>
+                <span>Add Item</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
