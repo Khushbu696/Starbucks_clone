@@ -109,27 +109,28 @@
     display: flex;
     justify-content: space-around;
 }
-.AA h3, .BB h3, .CC h3, .DD h3{
+.AA img, .BB img, .CC img {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border: 2px solid purple;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.AA h3, .BB h3, .CC h3{
     margin: 0;
 }
-.AA p, .BB p, .CC p, .DD p{
+.AA p, .BB p, .CC p{
     margin-top: 0;
     font-size: 13px;
     color: gray;
 }
-.AA, .BB, .CC, .DD{
-    background-color: rgb(249, 249, 249);
-    box-shadow: 0 1px 1px 1px lightgrey;
-    width: 18%;
-    border-radius: 5px;
-    padding: 8px;
-}
-.AA span, .BB span, .CC span, .DD span{
+.AA span, .BB span, .CC span{
     padding: 5px 15px;
     color: white;
     border-radius: 20px;
     display: inline-block;
-    margin: 0px 88px; 
+    margin: 0px auto; 
     background-color: seagreen;
 }
 .seven{
