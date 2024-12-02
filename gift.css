@@ -7,7 +7,6 @@
     margin: 0;
     top: 0;
     width: 100%;
-    /* z-index: 1000; Ensures it stays on top */
     background-color: white;
     box-shadow: 0 1px 1px 1px lightgrey;
 }
@@ -27,11 +26,21 @@
     font-size: 15px;
     color: black;
 }
-#home:hover, #order:hover, #pay:hover, #store:hover{
-    color: green;
+#order:hover, #pay:hover, #store:hover{
+    color: seagreen;
+}
+#home a{
+    text-decoration: none;
+    color: black;
+}
+#home a:visited{
+    color: black;
+}
+#home a:hover{
+    color: seagreen;
 }
 #gift{
-    color: darkgreen;
+    color: seagreen;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 12px;
@@ -76,12 +85,12 @@
     margin-left: 100px;
 }
 #featured{
-    color: darkgreen;
+    color: seagreen;
     text-decoration: underline;
     text-underline-offset: 20px;
 }
 #anytime:hover, #congratulations:hover, #thankyou:hover{
-    color: darkgreen;
+    color: seagreen;
     text-decoration: underline;
     text-underline-offset: 20px;
 }
@@ -121,7 +130,7 @@
     border-radius: 20px;
     display: inline-block;
     margin: 0px 88px; 
-    background-color: green;
+    background-color: seagreen;
 }
 .seven{
     margin: 0;

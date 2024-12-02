@@ -26,20 +26,20 @@
     color: black;
 }
 #order:hover, #pay:hover, #store:hover{
-    color: green;
+    color: seagreen;
 }
 #gift a{
     text-decoration: none;
     color: black;
 }
-#gift a:hover{
-    color: green;
-}
-/* #gift a:visited{
+#gift a:visited{
     color: black;
-} */
+}
+#gift a:hover{
+    color: seagreen;
+}
 #home{
-    color: darkgreen;
+    color: seagreen;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 12px;
@@ -73,43 +73,6 @@
     margin-left: auto;
     margin-right: 80px;
 }
-.first{
-    background-color: rgb(237, 54, 36);
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    width: 83%;
-    padding: 15px;
-}
-.first img{
-    width: 7%;
-    vertical-align: middle;
-}
-.second{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.second p{
-    line-height: 24px;
-}
-#bold{
-    font-weight: bold;
-    font-size: 20px;
-}
-.third{
-    height: 50px;
-    margin-top: 118px;
-    margin-right: 20px;
-}
-.third span{
-    color: black;
-    background-color: white;
-    border-radius: 25px;
-    padding: 15px 50px;
-}
 h2{
     margin-left: 115px;
     color: rgb(30, 58, 50);
@@ -124,6 +87,9 @@ h2{
 .fourth img{
     border-radius: 50%;
     width: 8%;
+}
+.fourth img:hover{
+    border: 3px solid seagreen;
 }
 .fifth{
     display: flex;
@@ -191,10 +157,10 @@ h2{
 }
 .cappuccino, .hotchoco, .vanilla{
     background-color: white;
-    width: 20%;
+    width: 23%;
     border-radius: 10px;
     box-shadow: 0px 1px 1px 1px lightgrey;
-    padding: 10px;
+    padding: 20px;
     margin-right: 40px;
 }
 .cappuccino img, .hotchoco img, .vanilla img{
@@ -219,10 +185,13 @@ h2{
     margin: 0px 15px;
 }
 #item{
-    padding: 5px 15px;
+    padding: 7px 16px;
     color: white;
     border-radius: 20px;
-    background-color: green;
+    background-color: seagreen;
+}
+#item:hover{
+    background-color: black;
 }
 .seventh{
     height: 510px;
