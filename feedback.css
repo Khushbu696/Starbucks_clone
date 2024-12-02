@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    padding: 10px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px lightgrey;
+}
+#left{
+    width: 3%;
+    vertical-align: middle;
+    margin-left: 110px;
+    margin-right: 30px;
+}
+#right{
+    width: 2%;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+#home, #gift, #order, #pay, #store, #feedback{
+    margin: 0px 30px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#gift a, #order a, #store a, #pay a, #home a{
+    text-decoration: none;
+    color: black;
+}
+#gift a:visited, #order a:visited, #pay a:visited, #store a:visited, #home a:visited{
+    color: black;
+}
+#gift a:hover, #order a:hover, #pay a:hover, #store a:hover, #home a:hover{
+    color: seagreen;
+}
+#feedback{
+    color: seagreen;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px;
+    font-weight: bold;
+}
+#search{
+    color: grey;
+    box-shadow: 0px 1px 2px 1px grey;
+    border-radius: 30px;
+    padding: 9px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#search img{
+    width: 2%;
+    vertical-align: middle;
+}
+.two{
+    background-color: rgb(30, 57, 50);
+    margin: 0;
+    height: 55px;
+    margin-top: 60px;
+}
+h1{
+    text-align: center;
+}
+#feedbackForm{
+    border: 5px outset seagreen;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+#submitbtn{
+    border: none;
+    background-color: seagreen;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 10px;
+}
+#submitbtn:hover{
+    background-color: black;
+}

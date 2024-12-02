@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="feedback.js">
+</head>
+<body>
+    <div class="head">
+        <img id="left" src="/Assets/logo.png" alt="Starbucks">
+        <span id="home"> <a href="index.html"> Home </a> </span>
+        <span id="gift"> <a href="gift.html"> Gift </a> </span>
+        <span id="order"> <a href="order.html"> Order </a> </span>
+        <span id="pay"> <a href="pay.html"> Pay </a> </span>
+        <span id="store"> <a href="store.html"> Store </a> </span>
+        <span id="feedback">Feedback</span>
+        <span id="search"> <img src="/Assets/search.png" alt="search"> Looking for something specific ?</span>
+        <img id="right" src="/Assets/profile.png" alt="profile">
+    </div>
+
+    <div class="two"></div>
+
+    <h1>Give us your feedback</h1>
+
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="review">Feedback:</label><br>
+        <textarea id="review" name="feedback" rows="4" cols="50" required></textarea><br><br>
+        
+        <button type="submit" id="submitbtn">Submit</button>
+      </form>
+</body>
+</html>

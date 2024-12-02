@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    padding: 10px;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 1px 1px lightgrey;
+}
+#left{
+    width: 3%;
+    vertical-align: middle;
+    margin-left: 110px;
+    margin-right: 30px;
+}
+#right{
+    width: 2%;
+    vertical-align: middle;
+    margin-left: 90px;
+}
+#home, #gift, #order, #pay, #stor, #feedback{
+    margin: 0px 30px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+#home a, #gift a, #order a, #store a, #feedback a{
+    text-decoration: none;
+    color: black;
+}
+#home a:visited, #gift a:visited, #order a:visited, #store a:visited, #feedback a:visited{
+    color: black;
+}
+#home a:hover, #gift a:hover, #order:hover, #store:hover, #feedback a:hover{
+    color: seagreen;
+}
+#pay{
+    color: seagreen;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 12px;
+    font-weight: bold;
+}
+#search{
+    color: grey;
+    box-shadow: 0px 1px 2px 1px grey;
+    border-radius: 30px;
+    padding: 9px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-right: 50px;
+}
+#search img{
+    width: 2%;
+    vertical-align: middle;
+}
